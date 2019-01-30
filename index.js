@@ -1,2 +1,4 @@
 var recipes ={}
-//function upds
+function updateObjectWithKeyAndValue(object, key, value){
+  return Object.assign({}, object, {[key]: value})
+}
